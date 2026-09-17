@@ -45,25 +45,49 @@ return String(v??"").replace(/[&<>"']/g,c=>({
 }
 
 function findTitle(widget){
-let node=widget;
 
-for(let depth=0;node&&depth<10;depth++){
+  // Look only inside the nearest individual
+  // competition/order-item container.
+  let node = widget;
 
-for(const el of node.querySelectorAll("h1,h2,h3,h4,p,span")){
+  while (node && node !== document.body) {
 
-const text=(el.textContent||"").trim();
+    // Never search a container holding multiple
+    // separate Pot Drop games.
+    const games = node.querySelectorAll(
+      '[x-data^="potDropGame_"]'
+    );
 
-if(text.startsWith(MARKER)){
-return text.slice(MARKER.length).trim()||
-"Reel in the Riches";
-}
+    if (games.length > 1) {
+      return null;
+    }
 
-}
+    const titles = Array.from(
+      node.querySelectorAll("h1,h2,h3,h4")
+    ).filter(el => {
 
-node=node.parentElement;
-}
+      const text = (el.textContent || "").trim();
 
-return null;
+      return text.startsWith(MARKER) &&
+        /reel\s+in\s+the\s+riches/i.test(text);
+
+    });
+
+    if (titles.length === 1) {
+
+      return titles[0].textContent
+        .trim()
+        .slice(MARKER.length)
+        .trim();
+
+    }
+
+    node = node.parentElement;
+
+  }
+
+  return null;
+
 }
 
 /* STYLES */
