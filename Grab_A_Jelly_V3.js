@@ -129,7 +129,7 @@ pointer-events:none;
 .clj2-pile {
   position:absolute;
   bottom:-2%;
-  left:10%;
+  left:30%;
   width:110%;
   height:56%;
   object-fit:contain;
