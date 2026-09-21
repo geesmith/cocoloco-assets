@@ -125,18 +125,22 @@ pointer-events:none;
   z-index:2;
   pointer-events:none;
 }
-
-.clj2-pile {
+.clj3-pile {
   position:absolute;
-  bottom:-2%;
-  left:30%;
-  width:110%;
-  height:56%;
-  object-fit:contain;
-  object-position:bottom;
-  filter:drop-shadow(0 6px 7px #0008);
+  left:-10%;
+  top:38%;
+  bottom:auto;
+  width:142%;
+  height:62%;
+  max-height:none;
+  object-fit:fill;
+  z-index:5;
+  display:block;
+  opacity:1;
   pointer-events:none;
+  filter:drop-shadow(0 7px 5px #0007);
 }
+
 .clj3-carriage{
 position:absolute;
 z-index:8;
