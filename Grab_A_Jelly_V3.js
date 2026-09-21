@@ -128,12 +128,16 @@ pointer-events:none;
 
 .clj3-pile{
 position:absolute;
-bottom:-2%;
-left:-5%;
-width:110%;
-height:56%;
+bottom:0;
+left:0;
+width:100%;
+height:auto;
+max-height:85%;
 object-fit:contain;
-object-position:bottom;
+object-position:bottom center;
+z-index:5;
+display:block;
+opacity:1;
 filter:drop-shadow(0 7px 5px #0007);
 }
 
