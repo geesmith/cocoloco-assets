@@ -129,9 +129,10 @@ pointer-events:none;
 .clj3-pile{
   position:absolute;
   left:-21%;
-  bottom:0;
+  top:38%;
+  bottom:auto;
   width:142%;
-  height:72%;
+  height:62%;
   max-height:none;
   object-fit:fill;
   z-index:5;
