@@ -133,7 +133,7 @@ pointer-events:none;
   width:142%;
   height:75%;
   object-fit:fill;
-  transform:translateY(18%);
+  transform:translate(12%, 18%);
   z-index:5;
   pointer-events:none;
   filter:drop-shadow(0 7px 5px #0007);
