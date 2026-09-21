@@ -7,7 +7,7 @@ const BASE='https://geesmith.github.io/cocoloco-assets/';
 const ASSETS={
 machine:BASE+'Grabajelly-machine.png',
 claw:BASE+'Grabajelly-claw.png',
-plushies:BASE+'Grab_A_Jelly_Plushies.png.png'
+plushies:BASE+'Grab_A_Jelly_Transparent.png'
 };
 
 const FLAG='clGrabJellyV3';
