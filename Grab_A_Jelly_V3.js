@@ -128,19 +128,16 @@ pointer-events:none;
 .clj3-pile {
   position:absolute;
   left:-10%;
-  top:55%;
-  bottom:auto;
+  top:auto;
+  bottom:0;
   width:142%;
-  height:30%;
-  max-height:none;
+  height:75%;
   object-fit:fill;
+  transform:translateY(18%);
   z-index:5;
-  display:block;
-  opacity:1;
   pointer-events:none;
   filter:drop-shadow(0 7px 5px #0007);
 }
-
 .clj3-carriage{
 position:absolute;
 z-index:8;
