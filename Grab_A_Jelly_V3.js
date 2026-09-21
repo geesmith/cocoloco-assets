@@ -126,15 +126,14 @@ pointer-events:none;
   pointer-events:none;
 }
 .clj3-pile {
-outline:5px solid red !important;
   position:absolute;
-  left:-0%;
+  left:-10%;
   top:auto;
   bottom:0;
   width:142%;
   height:75%;
   object-fit:fill;
-  transform:translate(12%, 18%);
+  transform:translate(0%, 18%);
   z-index:5;
   pointer-events:none;
   filter:drop-shadow(0 7px 5px #0007);
