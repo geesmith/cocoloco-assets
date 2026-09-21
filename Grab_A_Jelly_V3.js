@@ -18,7 +18,7 @@
   const BASE = "https://geesmith.github.io/cocoloco-assets/";
 
   const ASSETS = {
-    machine: BASE + "Grab_A_Jelly_Machine.png",
+    machine: BASE + "Grab_A_Jelly_Machine.png?v=2",
     claw: BASE + "Grabajelly-claw.png"
   };
 
