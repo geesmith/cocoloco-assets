@@ -116,29 +116,29 @@ pointer-events:none;
 }
 
 .clj3-glass{
-position:absolute;
-left:15%;
-top:23%;
-width:70%;
-height:53%;
-overflow:hidden;
-z-index:2;
-pointer-events:none;
+  position:absolute;
+  left:15%;
+  top:23%;
+  width:70%;
+  height:53%;
+  overflow:visible;
+  z-index:2;
+  pointer-events:none;
 }
 
 .clj3-pile{
-position:absolute;
-bottom:0;
-left:15%;
-width:130%;
-height:auto;
-max-height:100%;
-object-fit:contain;
-object-position:bottom center;
-z-index:5;
-display:block;
-opacity:1;
-filter:drop-shadow(0 7px 5px #0007);
+  position:absolute;
+  left:-21%;
+  bottom:0;
+  width:142%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  object-position:bottom center;
+  z-index:5;
+  display:block;
+  opacity:1;
+  filter:drop-shadow(0 7px 5px #0007);
 }
 
 .clj3-carriage{
