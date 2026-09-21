@@ -121,7 +121,7 @@ pointer-events:none;
   top:23%;
   width:70%;
   height:53%;
-  overflow:visible;
+  overflow:hidden;
   z-index:2;
   pointer-events:none;
 }
