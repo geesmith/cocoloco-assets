@@ -127,7 +127,7 @@ pointer-events:none;
 }
 .clj3-pile {
   position:absolute;
-  left:-10%;
+  left:-0%;
   top:auto;
   bottom:0;
   width:142%;
