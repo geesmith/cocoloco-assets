@@ -129,10 +129,10 @@ pointer-events:none;
 .clj3-pile{
 position:absolute;
 bottom:0;
-left:0;
-width:100%;
+left:15%;
+width:130%;
 height:auto;
-max-height:85%;
+max-height:100%;
 object-fit:contain;
 object-position:bottom center;
 z-index:5;
@@ -170,13 +170,13 @@ position:absolute;
 z-index:7;
 left:50%;
 top:69%;
-width:58%;
+width:35%;
 aspect-ratio:1;
 transform:translateX(-50%) scale(.8);
 opacity:0;
 border-radius:50%;
 background-image:var(--plush-image);
-background-size:340% auto;
+background-size:650% auto;
 background-repeat:no-repeat;
 background-position:var(--plush-position,50% 70%);
 filter:drop-shadow(0 6px 5px #0008);
@@ -629,7 +629,7 @@ app.classList.add('grabbing');
 msg.textContent='🧸 GRABBING A JELLY!';
 
 held.style.setProperty('--plush-position',
-['18% 55%','42% 62%','68% 65%','85% 70%'][Math.min(3,Math.floor(position/25))]
+['18% 30%','43% 45%','65% 65%','82% 75%'][Math.min(3,Math.floor(position/25))]
 );
 
 app.classList.add('held');
