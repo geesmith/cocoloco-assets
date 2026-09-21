@@ -126,19 +126,16 @@ pointer-events:none;
   pointer-events:none;
 }
 
-.clj3-pile{
+.clj2-pile {
   position:absolute;
-  left:-21%;
-  top:38%;
-  bottom:auto;
-  width:142%;
-  height:62%;
-  max-height:none;
-  object-fit:fill;
-  z-index:5;
-  display:block;
-  opacity:1;
-  filter:drop-shadow(0 7px 5px #0007);
+  bottom:-2%;
+  left:10%;
+  width:110%;
+  height:56%;
+  object-fit:contain;
+  object-position:bottom;
+  filter:drop-shadow(0 6px 7px #0008);
+  pointer-events:none;
 }
 .clj3-carriage{
 position:absolute;
