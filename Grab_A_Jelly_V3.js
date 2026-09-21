@@ -131,16 +131,14 @@ pointer-events:none;
   left:-21%;
   bottom:0;
   width:142%;
-  height:auto;
+  height:72%;
   max-height:none;
-  object-fit:contain;
-  object-position:bottom center;
+  object-fit:fill;
   z-index:5;
   display:block;
   opacity:1;
   filter:drop-shadow(0 7px 5px #0007);
 }
-
 .clj3-carriage{
 position:absolute;
 z-index:8;
