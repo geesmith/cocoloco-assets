@@ -126,6 +126,7 @@ pointer-events:none;
   pointer-events:none;
 }
 .clj3-pile {
+outline:5px solid red !important;
   position:absolute;
   left:-0%;
   top:auto;
